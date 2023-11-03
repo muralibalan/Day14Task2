@@ -1,0 +1,99 @@
+.calculator{
+    width: 40%;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    background-color: rgb(194, 186, 186);
+    border-radius: 5px;
+    
+}
+.display{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.row1{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: 40px;
+    left: 5%;
+}
+.cancel,.dot,.backspace,.multi{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.row2{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+.seven,.eghit,.nine,.divide{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.row3{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 5%;
+}
+.four,.five,.six,.sub{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.row4{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: -20px;
+    left: 5%;
+}
+.one,.two,.three,.add{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.row5{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    top: -40px;
+    left: 5%;
+}
+.zero,.dzero,.mudule,.equal{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.equal{
+    width: 24.3%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: blue;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div class="calculator">
+        <input type="text" id="display" class="display" placeholder="0" autofocus>
+        <div class="row1">
+            <button id="cancel" class="cancel" onclick="clearDisplay()">C</button>
+            <button onclick="backSpace()" id="backspace" class="backspace"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="appendToDisplay('.')" id="dot" class="dot">.</button>
+            <button onclick="appendToDisplay('*')" id="multi" class="multi">*</button>
+        </div>
+        <div class="row2">
+            <button onclick="appendToDisplay('7')" id="seven" class="seven">7</button>
+            <button onclick="appendToDisplay('8')" id="eghit" class="eghit">8</button>
+            <button onclick="appendToDisplay('9')" id="nine" class="nine">9</button>
+            <button onclick="appendToDisplay('/')" id="divide" class="divide">/</button>
+        </div>
+        <div class="row3">
+            <button onclick="appendToDisplay('4')" id="four" class="four">4</button>
+            <button onclick="appendToDisplay('5')" id="five" class="five">5</button>
+            <button onclick="appendToDisplay('6')" id="six" class="six">6</button>
+            <button onclick="appendToDisplay('-')" id="sub" class="sub">-</button>
+        </div>
+        <div class="row4">
+            <button onclick="appendToDisplay('1')" id="one" class="one">1</button>
+            <button onclick="appendToDisplay('2')" id="two" class="two">2</button>
+            <button onclick="appendToDisplay('3')" id="three" class="three">3</button>
+            <button onclick="appendToDisplay('+')" id="add" class="add">+</button>
+        </div>
+        <div class="row5">
+            <button onclick="appendToDisplay('0')" id="zero" class="zero">0</button>
+            <button onclick="appendToDisplay('00')" id="dzero" class="dzero">00</button>
+            <button onclick="appendToDisplay('%')" id="mudule" class="mudule">%</button>
+            <button onclick="calculateResult()" id="equal" class="equal">=</button>
+            
+        </div>
+    </div>
+</body>
+</html>
